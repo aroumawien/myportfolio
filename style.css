@@ -322,4 +322,10 @@ footer p {
 
 html {
   scroll-behavior: smooth;
+
+}
+
+.back-to-top:hover{
+  background: #313131;
+  color: #f4b400;
 }
