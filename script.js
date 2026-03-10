@@ -39,4 +39,14 @@ setInterval(changeSlide, 5000);
 function toggleMenu() {
   const nav = document.getElementById("nav-links");
   nav.classList.toggle("active");
+
 }
+const backToTop = document.getElementById("backToTop");
+
+window.addEventListener("scroll", function () {
+  if (window.scrollY > 100) {
+    backToTop.style.display = "block";
+  } else {
+    backToTop.style.display = "none";
+  }
+});
